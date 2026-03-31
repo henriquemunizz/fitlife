@@ -22,16 +22,28 @@
             <li><a href="water.html">Água</a></li>
         </ul>
 
-
     </nav>
 
     <main>
         <section>
+            <h1>Cálculo de IMC</h1>
+
+            <form>
+
+                <label for="weight">Peso</label>
+                <input type="number" id="weight" placeholder="Kg" required>
+
+                <label for="height">altura</label>
+                <input type="number" id="height" placeholder="m" required step="any">
             
-            <header>
-                <h1>IMC</h1>
-                <p>Em breve você poderá calcular seu imc</p>
-            </header>
+                <button type="submit">Calcular</button>
+            </form>
+
+            <div>
+                <p>Seu IMC é</p>
+                <h2>0.00</h2>
+                <p>Classificação</p>
+            </div>
 
 
                 <a href="../index.html">Voltar</a>

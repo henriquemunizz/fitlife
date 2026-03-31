@@ -27,15 +27,39 @@
 
     <main>
         <section>
-            
-            <header>
-                <h1>TBM</h1>
-                <p>Em breve você poderá calcular seu TMB</p>
-            </header>
+            <h1>Taxa Metabólica Basal</h1>
 
-                <a href="../index.html">Voltar</a>
-                
+            <form>
+
+
+                <label for="gender">Gênero</label>
+                <select id="gender">
+                    <option value="male">Masculino</option>
+                    <option value="female" selected>Feminino</option>
+                </select>
+
+                <label for="weight">Peso</label>
+                <input type="number" id="weight" placeholder="Kg" required>
+
+                <label for="height">altura</label>
+                <input type="number" id="height" placeholder="cm" required>
+
+                <label for="age">Idade</label>
+                <input type="number" id="" placeholder="" required>
+            
+                <button type="submit">Calcular</button>
+            </form>
+
+            <div>
+                <p>Gasto calórico basal</p>
+                <h2>00000</h2>
+                <p>cal/dia</p>
+            </div>
+
+
+
         </section>
+         <a href="../index.html">Voltar</a>
     </main>
 
 
